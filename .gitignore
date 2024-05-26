@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Django's migration files
+**/migrations/
+
+# Ignore local settings file
+.env
+
+# Ignore database file
+*.sqlite3
+
+# Ignore system-specific settings
+*.DS_Store
+Thumbs.db
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore pipenv and virtualenv folders
+Pipfile.lock
+pipfile.lock
+venv/
+env/
+
+# Ignore log files
+*.log
+
+# Ignore coverage reports
+.coverage
+htmlcov/
+
+# Ignore any other sensitive or environment-specific files
+*.secret
+
+# Ignore docker-compose files if applicable
+docker-compose.yml
+docker-compose.override.yml
+
+# Ignore local development configuration if any
+local_settings.py
